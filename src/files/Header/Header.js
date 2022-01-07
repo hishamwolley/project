@@ -143,7 +143,41 @@ const Header = () => {
 								tag="text"
 								variant="none"
 							>
-								Products
+								AI
+							</Dropdown.Toggle>
+							<Dropdown.Menu>
+								<Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+								<Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+								<Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+							</Dropdown.Menu>
+						</Dropdown>
+					</li>
+					<li style={{}}>
+						<Dropdown className="btn">
+							<Dropdown.Toggle
+								style={{ color: "#02509a" }}
+								className="btn"
+								tag="text"
+								variant="none"
+							>
+								Newsroom
+							</Dropdown.Toggle>
+							<Dropdown.Menu>
+								<Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+								<Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+								<Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+							</Dropdown.Menu>
+						</Dropdown>
+					</li>
+					<li style={{}}>
+						<Dropdown className="btn">
+							<Dropdown.Toggle
+								style={{ color: "#02509a" }}
+								className="btn"
+								tag="text"
+								variant="none"
+							>
+								Catalogue
 							</Dropdown.Toggle>
 							<Dropdown.Menu>
 								<Dropdown.Item href="#/action-1">Action</Dropdown.Item>
@@ -177,7 +211,7 @@ const Header = () => {
 								tag="text"
 								variant="none"
 							>
-								Services
+								Test API
 							</Dropdown.Toggle>
 							<Dropdown.Menu>
 								<Dropdown.Item href="#/action-1">Action</Dropdown.Item>
@@ -186,23 +220,7 @@ const Header = () => {
 							</Dropdown.Menu>
 						</Dropdown>
 					</li>
-					<li style={{}}>
-						<Dropdown className="btn">
-							<Dropdown.Toggle
-								style={{ color: "#02509a" }}
-								className="btn"
-								tag="text"
-								variant="none"
-							>
-								Learn
-							</Dropdown.Toggle>
-							<Dropdown.Menu>
-								<Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-								<Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-								<Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-							</Dropdown.Menu>
-						</Dropdown>
-					</li>
+
 					<li style={{}}>
 						<Dropdown className="btn">
 							<Dropdown.Toggle
@@ -220,6 +238,26 @@ const Header = () => {
 							</Dropdown.Menu>
 						</Dropdown>
 					</li>
+
+					<li style={{}}>
+						<Dropdown className="btn">
+							<Dropdown.Toggle
+								style={{ color: "#02509a" }}
+								className="btn"
+								tag="text"
+								variant="none"
+							>
+								Contact
+							</Dropdown.Toggle>
+							<Dropdown.Menu>
+								<Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+								<Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+								<Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+							</Dropdown.Menu>
+						</Dropdown>
+					</li>
+
+
 				</ul>
 			</nav>
 		</header>
